@@ -74,21 +74,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.sunny.component</groupId>
-			<artifactId>sunny-api</artifactId>
-			<version>${sunny.com.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sunny.component</groupId>
-			<artifactId>sunny-meta</artifactId>
-			<version>${sunny.com.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sunny.component</groupId>
-			<artifactId>sunny-permission</artifactId>
-			<version>${sunny.com.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.4</version>
@@ -132,6 +117,12 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
+		<!-- mysql -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.10</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<finalName>tocs-web</finalName>
